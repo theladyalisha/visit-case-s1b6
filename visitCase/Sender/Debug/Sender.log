@@ -1,0 +1,8 @@
+﻿  main.cpp
+  CSVCheckerAndUpdater.cpp
+c:\bootcampstuff\visit-case-s1b6\visitcase\sender\csvcheckerandupdater.cpp(48): warning C4018: '<': signed/unsigned mismatch
+c:\bootcampstuff\visit-case-s1b6\visitcase\sender\csvcheckerandupdater.cpp(49): warning C4018: '<': signed/unsigned mismatch
+  Converter.cpp
+  Generating Code...
+  Sender.vcxproj -> C:\BootcampStuff\visit-case-s1b6\visitCase\Debug\Sender.exe
+  Sender.vcxproj -> C:\BootcampStuff\visit-case-s1b6\visitCase\Debug\Sender.pdb (Partial PDB)
