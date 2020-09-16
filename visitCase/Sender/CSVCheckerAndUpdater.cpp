@@ -10,7 +10,6 @@ void CSVCheckerAndUpdater::ReadAndCheckRecord()
 {
 	ifstream csvFile;
 	csvFile.open("FootFallData.csv");
-
 	if (!csvFile.is_open())
 	{
 		cout << "Path Wrong!!!!" << endl;

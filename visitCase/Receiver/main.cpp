@@ -1,4 +1,5 @@
 #include<iostream>
+#include<DataReceiver.h>
 #include<Aggregations.h>
 #include <jsoncons/json.hpp>
 #include <jsoncons_ext/csv/csv.hpp>
@@ -7,10 +8,11 @@ using namespace std;
 
 int main()
 {
-	Aggregations obj;
+	DataReceiver obj;
 	ojson jsonData=obj.ConvertToJson();
-	obj.Aggregation1(jsonData);
-	//obj.check();
+	vector<Data> d=obj.ReadJson(jsonData);
+	Aggregations cobj;
+	cobj.AvgFootfallPerHour(d);
 	getchar();
 	return 0;
 }

@@ -3,12 +3,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="CSVCheckerAndUpdater.cpp" />
-    <ClCompile Include="CSVRead.cpp" />
     <ClCompile Include="Converter.cpp" />
-    <ClCompile Include="JsonToDS.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\CSVCheckerAndUpdater.h" />
     <ClInclude Include="include\Converter.h" />
+    <ClInclude Include="include\catch.hpp" />
   </ItemGroup>
 </Project>

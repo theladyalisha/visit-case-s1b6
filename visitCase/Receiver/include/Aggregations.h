@@ -1,15 +1,16 @@
 #include <jsoncons/json.hpp>
 #include <jsoncons_ext/csv/csv.hpp>
 #include<vector>
+#include<DataReceiver.h>
 using namespace jsoncons;
 
 class Aggregations
 {
 //private:
 	//vector<pair <string,string> >  v;
-
+	
 public:
-	ojson ConvertToJson();
-	void check();
-	void Aggregation1(ojson);  //avg footfall per hour over a day
+	DataReceiver *obj;
+	void AvgFootfallPerHour(vector<Data> v);  //avg footfall per hour over a day
+	void AvgDailyFootfallInWeek(vector<Data> v);  //avg daily footfall in a week
 };

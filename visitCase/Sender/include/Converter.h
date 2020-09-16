@@ -1,11 +1,11 @@
 #include <fstream>
 #include <jsoncons/json.hpp>
 #include <jsoncons_ext/csv/csv.hpp>
-
+#include<CSVCheckerAndUpdater.h>
 
 using namespace jsoncons; 
 
-class Converter
+class Converter:public CSVCheckerAndUpdater
 {
 private:
 	//CSVCheckerAndUpdater obj;
