@@ -22,10 +22,7 @@ jobs:
       
     - name: Receiver build
       run: g++ -Wall -Wextra -Werror --coverage -o ReceiverExe  CaseStudy/Receiver/*.cpp
-     
-    - name: run pipeline
-      run: ./SenderExe | ./ReceiverExe
-      
+           
     - name: static analysis
       run: cppcheck --enable=all --error-exitcode=1 .
       
