@@ -1,4 +1,0 @@
-﻿  Aggregations.cpp
-c:\bootcampstuff\visit-case-s1b6\visitcase\receiver\aggregations.cpp(42): warning C4018: '<': signed/unsigned mismatch
-  Receiver.vcxproj -> C:\BootcampStuff\visit-case-s1b6\visitCase\Debug\Receiver.exe
-  Receiver.vcxproj -> C:\BootcampStuff\visit-case-s1b6\visitCase\Debug\Receiver.pdb (Partial PDB)
