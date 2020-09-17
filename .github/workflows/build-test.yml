@@ -17,14 +17,14 @@ jobs:
     - name: install cppcheck static analysis
       run: sudo apt-get update && sudo apt-get install -y cppcheck
       
+    - name: static analysis
+      run: cppcheck --suppress=missingIncludeSystem --check-config --force --enable=all --error-exitcode=1 .
+      
     - name: Sender build
       run: g++ -Wall -Wextra -Werror --coverage -o SenderExe  CaseStudy/Sender/*.cpp
       
     - name: Receiver build
       run: g++ -Wall -Wextra -Werror --coverage -o ReceiverExe  CaseStudy/Receiver/*.cpp
-           
-    - name: static analysis
-      run: cppcheck --enable=all --error-exitcode=1 .
       
     - name: run Sender Exe
       run: ./SenderExe
