@@ -29,6 +29,18 @@ jobs:
     - name: run pipeline
       run: ./SenderExe | ./ReceiverExe
       
+    - name: SenderTest build
+      run: g++ -Wall -Wextra -Werror --coverage -o SenderTestExe  CaseStudy/SenderTest/*.cpp
+      
+    - name: ReceiverTest build
+      run: g++ -Wall -Wextra -Werror --coverage -o ReceiverTestExe  CaseStudy/ReceiverTest/*.cpp
+      
+    - name: run SenderTest
+      run: ./SenderTestExe
+      
+    - name: run ReceiverTest
+      run: ./ReceiverTestExe
+      
     - name: Receiver-Test coverage report
       run: gcov -r ReceiverTest.cpp
       
