@@ -5,6 +5,7 @@
 #include<string>
 #include"catch.hpp"
 #include"Receiver.h"
+#include<iostream>
 
 using namespace std;
 
