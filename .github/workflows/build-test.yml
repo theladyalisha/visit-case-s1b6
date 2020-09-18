@@ -36,7 +36,7 @@ jobs:
       run: ./SenderTestExe
       
     - name: ReceiverTest build
-      run: g++ -Wall -Wextra -Werror --coverage -o ReceiverTestExe  CaseStudy/ReceiverTest/*.cpp  
+      run: g++ -Wall -Wextra -Werror --coverage -o ReceiverTestExe  CaseStudy/ReceiverTest/ReceiverTest.cpp  
          
     - name: run ReceiverTest
       run: ./ReceiverTestExe
