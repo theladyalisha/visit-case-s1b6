@@ -36,10 +36,7 @@ jobs:
       run: g++ -Wall -Wextra -Werror --coverage -o ReceiverTestExe  CaseStudy/ReceiverTest/ReceiverTest.cpp
     
     - name: run SenderTest
-      run: ./SenderTestExe  
-         
-    - name: run ReceiverTest
-      run: ./ReceiverTestExe
+      run: ./SenderTestExe | ./ReceiverTestExe
       
     - name: Receiver-Test coverage report
       run: gcov -r ReceiverTest.cpp
