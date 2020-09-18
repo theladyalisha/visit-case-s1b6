@@ -32,11 +32,11 @@ jobs:
     - name: SenderTest build
       run: g++ -Wall -Wextra -Werror --coverage -o SenderTestExe  CaseStudy/SenderTest/*.cpp
       
-    - name: run SenderTest
-      run: ./SenderTestExe
-      
     - name: ReceiverTest build
-      run: g++ -Wall -Wextra -Werror --coverage -o ReceiverTestExe  CaseStudy/ReceiverTest/ReceiverTest.cpp  
+      run: g++ -Wall -Wextra -Werror --coverage -o ReceiverTestExe  CaseStudy/ReceiverTest/ReceiverTest.cpp
+    
+    - name: run SenderTest
+      run: ./SenderTestExe  
          
     - name: run ReceiverTest
       run: ./ReceiverTestExe
