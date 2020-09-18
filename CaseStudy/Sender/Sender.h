@@ -2,8 +2,7 @@
 #include<string>
 using namespace std;
 
-string print(string s)
+void print(string s)
 {
 	cout << s;
-	return s;
 }
