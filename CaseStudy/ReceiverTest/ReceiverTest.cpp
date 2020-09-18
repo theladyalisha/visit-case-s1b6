@@ -3,7 +3,7 @@
 #define CATCH_CONFIG_MAIN
 
 #include<string>
-#include "catch.hpp"
+#include"catch.hpp"
 #include"Receiver.h"
 
 using namespace std;
