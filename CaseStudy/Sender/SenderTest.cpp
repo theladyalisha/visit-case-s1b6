@@ -10,15 +10,14 @@
 //using namespace myFunctions;
 using namespace std;
 
-TEST_CASE("Print string Receiver") {
-
-	REQUIRE(print("Sender") == "Sender");
+TEST_CASE("Print string Sender") {
+        string s1="Sender";
+	print(s1);
+	string s2;
+	getline(cin,s2);
+	REQUIRE(s2 == "Sender");
 }
 
-TEST_CASE("Print string Server") {
-
-	REQUIRE(print("Client") == "Client");
-}
 
 // Compile & run:
 // - g++ -std=c++11 -Wall -I$(CATCH_SINGLE_INCLUDE) -o 010-TestCase 010-TestCase.cpp && 010-TestCase --success
