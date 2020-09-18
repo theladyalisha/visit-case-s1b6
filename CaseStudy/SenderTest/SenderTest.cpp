@@ -10,7 +10,7 @@ using namespace std;
 TEST_CASE("Print string Sender") {
         string s1="Sender";
 	print(s1);
-	/*string s2;
-	getline(cin,s2);*/
+	string s2;
+	getline(cin,s2);
 	REQUIRE(s1 == "Sender");
 }
