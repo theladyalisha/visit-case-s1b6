@@ -2,6 +2,7 @@
 
 #define CATCH_CONFIG_MAIN
 
+#include<iostream>
 #include<string>
 #include"catch.hpp"
 #include"Sender.h"
