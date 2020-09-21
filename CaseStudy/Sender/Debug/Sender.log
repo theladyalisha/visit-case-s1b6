@@ -1,3 +1,4 @@
-﻿  SenderTest.cpp
-  Sender.vcxproj -> C:\Users\320090368\OneDrive - Philips\Desktop\vs2015\Project\CaseStudy\Debug\Sender.exe
-  Sender.vcxproj -> C:\Users\320090368\OneDrive - Philips\Desktop\vs2015\Project\CaseStudy\Debug\Sender.pdb (Partial PDB)
+﻿  Sender.cpp
+c:\bootcampstuff\visit-case-s1b6\casestudy\sender\sender.h(15): warning C4018: '<': signed/unsigned mismatch
+  Sender.vcxproj -> C:\BootcampStuff\visit-case-s1b6\CaseStudy\Debug\Sender.exe
+  Sender.vcxproj -> C:\BootcampStuff\visit-case-s1b6\CaseStudy\Debug\Sender.pdb (Partial PDB)
